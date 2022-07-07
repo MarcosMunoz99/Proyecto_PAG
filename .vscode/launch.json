@@ -43,7 +43,7 @@
             "request": "launch",
             "vmArgs": "--module-path D:\\Descarga\\javafx-sdk-18.0.1\\lib --add-modules javafx.controls,javafx.fxml",
             "mainClass": "App",
-            "projectName": "Proyecto_Discord (2)_db59a08b"
+            "projectName": "Proyecto_Discord (2)_13ba02cc"
         }
     ]
 }
