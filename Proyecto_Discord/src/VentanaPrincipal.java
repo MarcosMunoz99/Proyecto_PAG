@@ -1,4 +1,3 @@
-
 import java.util.List;
 
 import dominio.Contact;
@@ -11,8 +10,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
-import javafx.scene.control.TextField;
 import javafx.scene.control.ScrollPane.ScrollBarPolicy;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
@@ -25,7 +24,7 @@ import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 import repository.MessageRepository;
 
-public class App extends Application {
+public class VentanaPrincipal extends Application {
 
     public int User = 0;
     public int contact = 2;
@@ -129,7 +128,6 @@ public class App extends Application {
             flowPane.setStyle("-fx-background-color: #005C4B");
 
             Label lblMessage = new Label(msg.getContent());
-
             lblMessage.setPadding(new Insets(20, 0, 0, 0));
             lblMessage.setStyle("-fx-text-fill: #E9E7DD");
 
@@ -220,7 +218,7 @@ public class App extends Application {
 
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Discordia");
+        primaryStage.setTitle("FirstView");
         primaryStage.show();
 
     }

@@ -39,10 +39,19 @@
         },
         {
             "type": "java",
-            "name": "Launch App",
+            "name": "Launch Login",
             "request": "launch",
             "vmArgs": "--module-path D:\\Descarga\\javafx-sdk-18.0.1\\lib --add-modules javafx.controls,javafx.fxml",
-            "mainClass": "App",
+            "mainClass": "Login",
+            "projectName": "Proyecto_Discord (2)_13ba02cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch VentanaPrincipal",
+            "request": "launch",
+            "vmArgs": "--module-path D:\\Descarga\\javafx-sdk-18.0.1\\lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "VentanaPrincipal",
+            "mainClass": "VentanaPrincipal",
             "projectName": "Proyecto_Discord (2)_13ba02cc"
         }
     ]
