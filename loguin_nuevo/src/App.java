@@ -28,11 +28,14 @@ public class App extends Application {
 				
 					VBox vbx = new VBox ();
 					// imagen para el logui 
-					Image imagen = new Image(getClass().getResourceAsStream("/Imagenes/Fondo.png"));
+					Image imagen = new Image(getClass().getResourceAsStream("/Imagenes/im1.png"));
 					ImageView vi = new ImageView(imagen);
 					vi.setPreserveRatio(true);
 					vi.setSmooth(true);
 					vi.setCache(true);
+					vi.setFitHeight(350);
+					vi.setFitWidth(250);
+					vbx.setStyle("-fx-background-color: #2ECC71 ");
 					vbx.getChildren().add(vi);
 					
 					// sentencias para el loguin usuario y contraseña 
@@ -66,7 +69,7 @@ public class App extends Application {
 						if(text.getText().equals("")||(pwr.getText().equals(""))){
 						System.out.println("ingresar los datos");
 					}else {
-						if((text.getText().equals("Amanecer"))&&(pwr.getText().equals("admin"))) {
+						if((text.getText().equals("Admin"))&&(pwr.getText().equals("admin"))) {
 							System.out.println("ingreso acptado :) "); 
 						}else {
 							System.out.println("Error :( "); 
@@ -96,7 +99,7 @@ public class App extends Application {
 
 					
 					Scene scene = new Scene(root,700,350);
-					primaryStage.setTitle(" WHATSAPP");
+					primaryStage.setTitle("FIRTSAPP");
 					primaryStage.setScene(scene);
 					primaryStage.show();
 				} catch(Exception e) {
