@@ -218,7 +218,7 @@ public class VentanaPrincipal extends Application {
 
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("FirstView");
+        primaryStage.setTitle("FirstApp");
         primaryStage.show();
 
     }
