@@ -5,33 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Java",
-            "type": "java",
-            "request": "launch",
-            "stopOnEntry": true,
-            "jdkPath": "${env:JAVA_HOME}/bin",
-            "cwd": "${fileDirname}",
-            "startupClass": "${fileBasenameNoExtension}",
-            "classpath": [
-                ".",
-                "${fileDirname}"
-            ]
-        },
-        {
-            "name": "Java Console App",
-            "type": "java",
-            "request": "launch",
-            "stopOnEntry": true,
-            "jdkPath": "${env:JAVA_HOME}/bin",
-            "cwd": "${fileDirname}",
-            "startupClass": "${fileBasenameNoExtension}",
-            "classpath": [
-                ".",
-                "${fileDirname}"
-            ],
-            "externalConsole": true
-        },
-        {
             "type": "java",
             "name": "Launch Current File",
             "request": "launch",
@@ -39,20 +12,11 @@
         },
         {
             "type": "java",
-            "name": "Launch Login",
+            "name": "Launch App",
             "request": "launch",
-            "vmArgs": "--module-path D:\\Descarga\\javafx-sdk-18.0.1\\lib --add-modules javafx.controls,javafx.fxml",
-            "mainClass": "Login",
-            "projectName": "Proyecto_Discord (2)_13ba02cc"
-        },
-        {
-            "type": "java",
-            "name": "Launch VentanaPrincipal",
-            "request": "launch",
-            "vmArgs": "--module-path D:\\Descarga\\javafx-sdk-18.0.1\\lib --add-modules javafx.controls,javafx.fxml",
-            "mainClass": "VentanaPrincipal",
-            "mainClass": "VentanaPrincipal",
-            "projectName": "Proyecto_Discord (2)_13ba02cc"
+            "vmArgs": "--module-path C:\\Users\\TATY\\Desktop\\javafx-sdk-17.0.1\\javafx-sdk-17.0.1\\lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "App",
+            "projectName": "Proyecto_PAG_27596bb3"
         }
     ]
 }
